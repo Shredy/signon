@@ -18,8 +18,8 @@ The created user is not a member of any site or any particular groups of users.
 - signon/signon-share/target/signon-share-1.0.amp -> share.war
 
 Stop Alfresco
-- Copy the [alfresco-login-reset-repo.amp](https://github.com/teqnology/alfresco-login-reset-repo) inside your alfresco `amps` folder
-- Copy the [alfresco-login-reset-share.amp](https://github.com/teqnology/alfresco-login-reset-share) inside your alfresco `amps_share` folder
+- Copy the [signon-repo-1.0.amp](https://github.com/Shredy/signon/signon-repo/target/) inside your alfresco `amps` folder
+- Copy the [signon-share-1.0.amp](https://github.com/Shredy/signon/signon-share/target/) inside your alfresco `amps_share` folder
 - Run `bin/apply_amps.sh` in order to install the extensions
 - Start Alfresco
-- Open Alfresco Share URL (eg. `http://localhost:8080/share`) to check if the new login page and the reset password are in place
+
