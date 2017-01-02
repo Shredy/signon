@@ -1,0 +1,9 @@
+<webscript>
+	<shortname>Validate the username</shortname>
+	<description>Check if the username exist or not</description>
+	<url>/signon/login/validate</url>
+	<authentication runas="admin">none</authentication>
+	<format default="json">extension</format>
+	<transaction>requiresnew</transaction>
+	<family>signon</family>
+</webscript>
