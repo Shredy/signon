@@ -1,0 +1,6 @@
+#FileLock
+#Tue Dec 20 16:55:17 GMT+01:00 2016
+hostName=LFR409408.corp.capgemini.com
+id=1591cf1ac9d75e0e974e69870fdfbaa27b68cdc059c
+method=file
+server=192.168.56.1\:53384

@@ -1,0 +1,5 @@
+<Context path="/share" reloadable="false" backgroundProcessorDelay="-1">
+  <Resources className="org.apache.naming.resources.VirtualDirContext" extraResourcePaths="/=C:\\Users\\maltit\\workspace_alfresco\\signon-share\\target/amp/web,C:\\Users\\maltit\\workspace_alfresco\\signon-share\\target/amp-war"/>
+  <Loader searchVirtualFirst="true" className="org.apache.catalina.loader.VirtualWebappLoader" virtualClasspath="C:\\Users\\maltit\\workspace_alfresco\\signon-share\\target\\classes;C:\\Users\\maltit\\workspace_alfresco\\signon-share\\target/amp/config;C:\\Users\\maltit\\workspace_alfresco\\signon-share\\target\\test-classes"/>
+  <JarScanner scanAllDirectories="true"/>
+</Context>
