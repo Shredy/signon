@@ -14,12 +14,12 @@ The created user is not a member of any site or any particular groups of users.
 
 # Quickstart
 - Locate the AMP files inside the path:
-- signon/signon-repo/target/signon-repo-1.0.amp   -> alfresco.war
-- signon/signon-share/target/signon-share-1.0.amp -> share.war
+- signon/signon-repo/target/signon-repo.amp   -> alfresco.war
+- signon/signon-share/target/signon-share.amp -> share.war
 
 Stop Alfresco
-- Copy the [signon-repo-1.0.amp](https://github.com/Shredy/signon/raw/master/signon-repo/target/signon-repo-1.0.amp) inside your alfresco `amps` folder
-- Copy the [signon-share-1.0.amp](https://github.com/Shredy/signon/raw/master/signon-share/target/signon-share-1.0.amp) inside your alfresco `amps_share` folder
+- Copy the [signon-repo.amp](https://github.com/Shredy/signon/raw/master/signon-repo/target/signon-repo-1.0.amp) inside your alfresco `amps` folder
+- Copy the [signon-share.amp](https://github.com/Shredy/signon/raw/master/signon-share/target/signon-share-1.0.amp) inside your alfresco `amps_share` folder
 - Run `bin/apply_amps.sh` in order to install the extensions
 - Start Alfresco
 
